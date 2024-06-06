@@ -10,6 +10,7 @@
  * Description: New node replaces the left child node, old node becomes left
  * child of the new node.
  */
+
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
 	/* Check if parent node is NULL	*/
